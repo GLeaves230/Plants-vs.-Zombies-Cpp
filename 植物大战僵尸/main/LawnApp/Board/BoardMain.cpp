@@ -1,5 +1,8 @@
+#ifndef BOARD_MAIN
+#define BOARD_MAIN
 #include "..\\..\\ClassInclude.cpp"
-
+#include "..\\..\\Graphics\\Graphics.cpp"
+#include "..\\LawnAppMain.cpp"
 class Board {
 public:
 	LawnApp* mApp;
@@ -15,6 +18,10 @@ public:
 	}
 
 	void init(LawnApp* mApp) {
-		mApp->a = 2;
+	}
+
+	void draw(Graphics* mGar) {
+		mGar->ClearRect.draw(mGar);
 	}
 };
+#endif

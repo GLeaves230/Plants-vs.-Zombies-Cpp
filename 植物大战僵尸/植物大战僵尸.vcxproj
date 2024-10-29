@@ -127,11 +127,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main\ClassInclude.cpp" />
-    <ClCompile Include="main\LawnApp\Board\BoardMain.cpp" />
-    <ClCompile Include="main\LawnApp\GameWindow\GameWindowMain.cpp" />
-    <ClCompile Include="main\LawnApp\LawnAppMain.cpp" />
-    <ClCompile Include="main\main.cpp" />
     <ClCompile Include="植物大战僵尸.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
