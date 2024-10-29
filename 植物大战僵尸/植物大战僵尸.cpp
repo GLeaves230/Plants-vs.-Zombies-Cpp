@@ -20,8 +20,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	if (Window == NULL) {
 		return 0;											 // 如果创建窗口失败，返回0
 	}
-	ShowWindow(Window, nCmdShow);							 // 显示窗口
-	UpdateWindow(Window);									 // 更新窗口
+	ShowWindow(Window, nCmdShow);							 // 显示
+	UpdateWindow(Window);									 // 更新
 
 	MSG msg = {};											 // 定义消息变量
 	LawnApp* mApp = new LawnApp;
